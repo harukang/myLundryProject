@@ -1,0 +1,26 @@
+
+a {text-decoration: none !important;
+    color: black;
+} 
+
+.card-img-top {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+}
+
+.card-img-bottom {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.customer-container-fluid {
+    display: none; 
+}
+
+.business-container-fluid {
+    display: show; 
+}
+img { display:block; margin:auto;}
+p, h5{ text-align: center;}

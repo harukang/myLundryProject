@@ -1,0 +1,49 @@
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">회원가입</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="sign-up mt-3">
+          <div class="card text-dark mb-3" style="--bs-bg-opacity: 0.5">
+            <div class="card-body">
+              <div class="col-md-6">
+                <label for="inputId" class="form-label">Id</label>
+                <input type="password" class="form-control" id="inputId">
+              </div>
+              <div class="col-md-6">
+                <label for="inputNickname" class="form-label">Nickname</label>
+                <input type="text" class="form-control" id="inputNickname">
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword1">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">confirm Password</label>
+                <input type="password" class="form-control" id="inputPassword2">
+              </div>
+              <div class="col-12" style="margin-top: 10px;">
+                <button onclick="signUp" class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="/js/index.js"></script>
